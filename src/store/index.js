@@ -14,7 +14,7 @@ export default new Vuex.Store({
     currency: "",
     countriesToShow: [],
     canLoad: false,
-    // numOfCountries sets the number of countries we wan't to get by click the "Show more" button at the bottom of the countries list.
+    // numOfCountries sets the number of countries we want to get by click the "Show more" button at the bottom of the countries list.
     numOfCountries: { from: 0, to: 50 },
     showLoadMoreBtn: true,
     showGoBack: false,
